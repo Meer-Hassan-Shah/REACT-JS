@@ -1,0 +1,51 @@
+/* Lab 9 custom styles */
+
+/* Global reset */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0f7cea; /* light gray background */
+}
+
+/* Root container */
+.App {
+  text-align: center;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* Buttons */
+button {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Navbar custom polish */
+nav ul li {
+  transition: color 0.3s ease;
+}
+
+nav ul li:hover {
+  color: #cdef44; /* Tailwind red-500 */
+}
+
+/* Team cards */
+.team-card {
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: #33ca60;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+}
