@@ -1,15 +1,16 @@
 import React from 'react';
 
-function Lab9Navbar() {
+function Navbar() {
   return (
-    <nav style={{ backgroundColor: '#333', padding: '10px' }}>
-      <ul style={{ display: 'flex', listStyle: 'none', color: 'white' }}>
-        <li style={{ marginRight: '20px' }}>Home</li>
-        <li style={{ marginRight: '20px' }}>About</li>
-        <li>Contact</li>
+    <nav className="bg-slate-800 shadow-lg p-4 flex justify-between items-center">
+      <h1 className="text-xl font-bold text-cyan-400"> Lab 9 Project</h1>
+      <ul className="flex gap-6 text-gray-300">
+        <li className="hover:text-cyan-400 cursor-pointer">Home</li>
+        <li className="hover:text-cyan-400 cursor-pointer">About</li>
+        <li className="hover:text-cyan-400 cursor-pointer">Team</li>
       </ul>
     </nav>
   );
 }
 
-export default Lab9Navbar;
+export default Navbar;

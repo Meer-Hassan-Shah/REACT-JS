@@ -2,20 +2,18 @@ import React from 'react';
 
 function TeamSection() {
   return (
-    <section className="p-10 bg-gray-100">
-      <h2 className="text-3xl font-semibold mb-6 text-gray-800 text-center">Our Team</h2>
+    <section className="team bg-slate-800 rounded-lg shadow-lg mx-6 mt-10 p-10">
+      <h2 className="text-3xl font-bold text-cyan-400 mb-4">Our Team</h2>
+      <p className="text-gray-300 mb-6">Meet the amazing developers behind this project:</p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div className="team-card">
-          <h3 className="font-bold text-xl">Hassan</h3>
-          <p className="text-gray-600">Web Engineer</p>
+        <div className="bg-slate-700 p-6 rounded-lg hover:scale-105 transition-transform">
+          👨‍💻 Hassan Shah
         </div>
-        <div className="team-card">
-          <h3 className="font-bold text-xl">Ali</h3>
-          <p className="text-gray-600">Designer</p>
+        <div className="bg-slate-700 p-6 rounded-lg hover:scale-105 transition-transform">
+          👩‍💻 Developer 2
         </div>
-        <div className="team-card">
-          <h3 className="font-bold text-xl">Ayesha</h3>
-          <p className="text-gray-600">Developer</p>
+        <div className="bg-slate-700 p-6 rounded-lg hover:scale-105 transition-transform">
+          👨‍💻 Developer 3
         </div>
       </div>
     </section>
